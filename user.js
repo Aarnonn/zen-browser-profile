@@ -15,5 +15,5 @@ user_pref("geo.enabled", true);  // Allow geolocation (maps, weather)
 user_pref("dom.battery.enabled", false);  // Disable battery fingerprinting
 
 // --- Performance/UX tweaks ---
-// user_pref("network.prefetch-next", false);  // Disable DNS prefetching
+user_pref("network.prefetch-next", false);  // Disable DNS prefetching
 user_pref("browser.shell.checkDefaultBrowser", false);  // No default-browser prompt
