@@ -5,6 +5,9 @@
 user_pref("network.cookie.cookieBehavior", 1);  // Block 3rd-party cookies
 user_pref("privacy.firstparty.isolate", true);  // Isolate cookies per site
 user_pref("privacy.trackingprotection.enabled", true);  // Block trackers
+user_pref("privacy.clearOnShutdown.siteSettings", false);
+user_pref("privacy.sanitize.sanitizeOnShutdown", false);
+
 user_pref("privacy.clearOnShutdown.cookies", false);  // Keep login cookies
 user_pref("network.http.referer.XOriginPolicy", 2);  // Prevent referer leaks
 user_pref("dom.event.clipboardevents.enabled", false);  // Block clipboard spying
