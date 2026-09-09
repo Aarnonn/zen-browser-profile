@@ -2,7 +2,7 @@
 // Last updated: 2025-06-20
 
 // --- Privacy & Blockers ---
-user_pref("network.cookie.cookieBehavior", 1);  // Block 3rd-party cookies
+user_pref("network.cookie.cookieBehavior", 5);  // Block 3rd-party cookies
 user_pref("privacy.firstparty.isolate", false);  // MODIFIED: Changed to false to fix Google OAuth sign-in loops
 user_pref("privacy.trackingprotection.enabled", true);  // Block trackers
 user_pref("privacy.clearOnShutdown.siteSettings", false);
